@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img{
+    opacity: 15%;
+    background-position: cover;
+    max-width: 100%;
+    height: auto;
+}
+.btn{
+    background-color: brown;
+    border: 3px darkblue;
+    border-radius: 1rem;
+}
+.btn:hover{
+  background-color: coral;
+}
+.about{
+    background-color:lightgray;
+}
+.about1{
+    text-align: center;
+    margin-top: 5%;
+}
+.section-heading{
+    margin-top: 10%;
+}
+span{
+color: black;
+font-weight: bold;
+}
+.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    justify-content: space-around;
+    
+
+}
+.nav-link:hover{
+background-color:lightgray;
+color:blanchedalmond;
+transition:all 0.10s;
+}
+.nav-link {
+    color:black !important;
+    text-transform: uppercase;
+}
+py-3 {
+    
+    border: solid 2px black;
+}
